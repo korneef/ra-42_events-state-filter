@@ -32,12 +32,9 @@ export default class Portfolio extends Component {
 
   componentDidMount() {
     this.getFilters(this.projects);
-    console.log('mount')
   }
 
   render() {
-    console.log('render')
-
     return (
       <>
         <Toolbar
